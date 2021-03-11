@@ -3,15 +3,15 @@ import 'package:flutter_responsiveness_tips/breakpoints.dart';
 
 class ResponsiveLayout extends StatelessWidget {
   const ResponsiveLayout({
-    Key key,
-    @required this.mobileBody,
+    Key? key,
+    required this.mobileBody,
     this.tabletBody,
     this.desktopBody,
   }) : super(key: key);
 
   final Widget mobileBody;
-  final Widget tabletBody;
-  final Widget desktopBody;
+  final Widget? tabletBody;
+  final Widget? desktopBody;
 
   @override
   Widget build(BuildContext context) {

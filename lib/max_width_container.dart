@@ -3,8 +3,8 @@ import 'package:flutter_responsiveness_tips/breakpoints.dart';
 
 class MaxWidthContainer extends StatelessWidget {
   const MaxWidthContainer({
-    Key key,
-    @required this.child,
+    Key? key,
+    required this.child,
   }) : super(key: key);
   final Widget child;
 
